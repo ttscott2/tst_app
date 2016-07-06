@@ -1,6 +1,6 @@
 <h1><%= pluralize(@students.size, 'Student') %></h1>
 <ul>
   <% @students.each do |student| %>
-    <li><%= student %></li>
+    <li><%= student.first_name %></li>
   <% end %>
 </ul>
